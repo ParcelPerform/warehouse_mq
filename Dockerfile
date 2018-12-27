@@ -1,5 +1,6 @@
 FROM python:3.6-alpine3.6
 
+WORKDIR /src/warehouse_mq
 RUN pip install --upgrade pip
 
 ADD requirements.txt ./
